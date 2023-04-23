@@ -33,8 +33,20 @@ Route::get('/list', [ListController::class, 'getAllLists']);
 
 Route::get('/list/{nomor_rekening}', [ListController::class, 'findSlug']);
 
+Route::get('/transfer', function () {
+    return view('notransfer', [
+        "active" => "transfer"
+    ]);
+});
+
 Route::get('/mutation', function () {
     return view('mutation', [
         "active" => "mutation"
+    ]);
+});
+
+Route::get('/balance', function () {
+    return view('balance', [
+        "active" => "balance"
     ]);
 });

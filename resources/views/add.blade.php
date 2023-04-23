@@ -23,7 +23,7 @@
                             class="bg-custblack rounded-lg border-white border-2 w-96 py-2 px-6">
                     </div>
                     <div>
-                        <button class="bg-custpink py-2 px-4 w-48 rounded-md font-semibold" type="submit" value="Submit">Send</button>
+                        <button class="bg-custpink py-4 px-4 w-48 rounded-md font-semibold" type="submit" value="Submit">Send</button>
                     </div>
                 </form>
             </div>

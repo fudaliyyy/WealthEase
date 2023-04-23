@@ -11,9 +11,11 @@
                 </li>
                 <li><a class="{{ $active === 'list' ? 'text-custpink' : 'text-white' }}" href="/list">Account List</a>
                 </li>
-                <li><a class="{{ $active === 'transfer' ? 'text-custpink' : 'text-white' }}" href="/list">Transfer</a>
+                <li><a class="{{ $active === 'transfer' ? 'text-custpink' : 'text-white' }}" href="/transfer">Transfer</a>
                 </li>
                 <li><a class="{{ $active === 'mutation' ? 'text-custpink' : 'text-white' }}" href="/mutation">Mutation</a>
+                </li>
+                <li><a class="{{ $active === 'balance' ? 'text-custpink' : 'text-white' }}" href="/balance">My Balance</a>
                 </li>
             </ul>
         </div>
