@@ -12,44 +12,6 @@ class ListModel extends Model
     use HasFactory;
     protected $table = 'accounts';
 
-    // static $list_account = [
-    //     [
-    //         "name" => "Shabrina Putri Fudali",
-    //         "bank" => "Bank Mandiri",
-    //         "nomor_rekening" => "1440022415449"
-    //     ],
-    //     [
-    //         "name" => "Shabrina Putri Fudali",
-    //         "bank" => "Bank BCA",
-    //         "nomor_rekening" => "8692396528"
-    //     ],
-    //     [
-    //         "name" => "Alfatih Rizqi Alfian",
-    //         "bank" => "Bank BCA",
-    //         "nomor_rekening" => "6755503138"
-    //     ],
-    //     [
-    //         "name" => "Shabrina Putri Fudali",
-    //         "bank" => "Bank BCA",
-    //         "nomor_rekening" => "8692396528"
-    //     ],
-    //     [
-    //         "name" => "Alfatih Rizqi Alfian",
-    //         "bank" => "Bank BCA",
-    //         "nomor_rekening" => "6755503138"
-    //     ],
-    //     [
-    //         "name" => "Shabrina Putri Fudali",
-    //         "bank" => "Bank BCA",
-    //         "nomor_rekening" => "8692396528"
-    //     ],
-    //     [
-    //         "name" => "Alfatih Rizqi Alfian",
-    //         "bank" => "Bank BCA",
-    //         "nomor_rekening" => "6755503138"
-    //     ],
-    // ];
-
 
     public static function getAll()
     {

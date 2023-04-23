@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ListController;
+use App\Http\Controllers\TransactionController;
 use App\Models\ListModel;
 use Illuminate\Support\Facades\Route;
 
@@ -39,14 +40,17 @@ Route::get('/transfer', function () {
     ]);
 });
 
-Route::get('/mutation', function () {
-    return view('mutation', [
-        "active" => "mutation"
-    ]);
-});
+Route::post('/send-money', [TransactionController::class, 'sendMoney']);
 
-Route::get('/balance', function () {
-    return view('balance', [
+Route::get('/mutation', [TransactionController::class, 'mutation']);
+
+Route::get('/balance', [TransactionController::class, 'balance']);
+
+Route::get('/add-balance', function () {
+    return view('addbalance', [
         "active" => "balance"
     ]);
 });
+
+Route::post('/add-new-balance', [TransactionController::class, 'addBalance']);
+
