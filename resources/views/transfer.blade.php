@@ -6,8 +6,8 @@
             <h1 class="font-semibold text-4xl">Transfer</h1>
             <div class="border-2 border-white rounded-md h-[450px] py-6 px-8">
                 <div class="text-center">
-                    <h1 class="font-semibold">{{ $account['name'] }}</h1>
-                    <h3>{{ $account['bank'] }} - {{ $account['nomor_rekening'] }}</h3>
+                    <h1 class="font-semibold">{{ $account -> name }}</h1>
+                    <h3>{{ $account -> bank }} - {{ $account -> acc_num }}</h3>
                 </div>
                 <form action="" class="flex flex-col gap-8 my-4">
                     <div class="flex flex-col">
