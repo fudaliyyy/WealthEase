@@ -13,17 +13,17 @@
                     @csrf
                     <div class="flex flex-col">
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name" value="{{ $account -> name }}"
+                        <input readonly type="text" id="name" name="name" value="{{ $account -> name }}"
                             class="bg-custblack rounded-lg border-white border-2 w-96 py-2 px-6">
                     </div>
                     <div class="flex flex-col">
                         <label for="bank">Bank</label>
-                        <input type="text" id="bank" name="bank" value={{ $account -> bank }}
+                        <input readonly type="text" id="bank" name="bank" value={{ $account -> bank }}
                             class="bg-custblack rounded-lg border-white border-2 w-96 py-2 px-6">
                     </div>
                     <div class="flex flex-col">
                         <label for="amount">Amount</label>
-                        <input type="text" id="amount" name="amount"
+                        <input required type="text" id="amount" name="amount"
                             class="bg-custblack rounded-lg border-white border-2 w-96 py-2 px-6">
                     </div>
                     <div class="flex flex-col">

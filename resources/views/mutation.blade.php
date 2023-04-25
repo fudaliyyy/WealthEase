@@ -7,7 +7,10 @@
             <div class="border-2 border-white rounded-md h-[450px] py-6 px-8 overflow-y-scroll scroll flex flex-col gap-4">
                 @foreach ($mutation as $m)
                 <div class="border-2 border-white rounded-md py-2 px-4 w-[300px]">
-                    <h1 class="font-semibold">{{ $m -> status }}</h1>
+                    <div class="flex flex-row justify-between">
+                        <h1 class="font-semibold">{{ $m -> status }}</h1>
+                        <h1>- Rp. {{ number_format($m -> amount) }}</h1>
+                    </div>
                     <h3>{{ $m -> name }} - {{ $m -> bank }}</h3>
                 </div>
                 @endforeach

@@ -18,7 +18,7 @@
                     colors: {
                         custblack: '#081110',
                         custpink: '#F20070',
-                        custgrey : '#182120'
+                        custgrey: '#182120'
                     },
                     fontFamily: {
                         'roboto': ['Roboto']

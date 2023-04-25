@@ -21,7 +21,7 @@ class TransactionModel extends Model
 
     public static function getAll()
     {
-        $list_account = DB::table('transactions')->select('name', 'bank', 'status')->get();
+        $list_account = DB::table('transactions')->select('name', 'bank', 'status', 'amount')->get();
         return $list_account;
     }
 }
