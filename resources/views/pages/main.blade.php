@@ -33,7 +33,7 @@
     @include('components.navbar')
 
     <div class="bg-custblack">
-        <div class="container mx-16 ">
+        <div class="ml-16 ">
             @yield('container')
         </div>
     </div>

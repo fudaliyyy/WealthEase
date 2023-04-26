@@ -1,9 +1,9 @@
 @extends('pages.main')
 
 @section('container')
-    <div class="bg-custblack text-white">
-        <div class="flex flex-row">
-            <h1 class="text-7xl w-1/2 font-semibold mt-12">Say goodbye to financial stress - <span
+    <div class="bg-custblack text-white ">
+        <div class="flex flex-row justify-between">
+            <h1 class="text-7xl w-[50%] font-semibold mt-16">Say goodbye to financial stress - <span
                     class="text-custpink">WealthEase</span> makes saving easy and effortless!</h1>
             <img class="w-1/2" src="img/visa.svg" alt="missing img">
         </div>
